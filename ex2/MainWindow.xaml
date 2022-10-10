@@ -1,0 +1,21 @@
+﻿<Window x:Class="ex2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ex2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    <Grid>
+        <Label x:Name="sizeLabel" Content="Size" HorizontalAlignment="Left" Margin="59,78,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="toppingsLabel" Content="Toppings" HorizontalAlignment="Left" Margin="316,78,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="smallRadioButton" Content="Small" HorizontalAlignment="Left" Margin="59,143,0,0" VerticalAlignment="Top" Checked="smallRadioButton_Checked" IsChecked="True"/>
+        <RadioButton x:Name="mediumRadioButton" Content="Medium" HorizontalAlignment="Left" Margin="59,185,0,0" VerticalAlignment="Top" Checked="mediumRadioButton_Checked"/>
+        <RadioButton x:Name="largeRadioButton" Content="Large" HorizontalAlignment="Left" Margin="59,217,0,0" VerticalAlignment="Top" Checked="largeRadioButton_Checked"/>
+        <CheckBox x:Name="onionCheckBox" Content="onion" HorizontalAlignment="Left" Margin="316,143,0,0" VerticalAlignment="Top" IsChecked="False" Checked="onionCheckBox_Checked"/>
+        <CheckBox x:Name="pepperCheckBox" Content="pepper" HorizontalAlignment="Left" Margin="316,185,0,0" VerticalAlignment="Top" IsChecked="False" Checked="pepperCheckBox_Checked"/>
+        <CheckBox x:Name="tomatoCheckBox" Content="tomato" HorizontalAlignment="Left" Margin="316,220,0,0" VerticalAlignment="Top" IsChecked="False" Checked="tomatoCheckBox_Checked"/>
+        <Label x:Name="priceLabel" Content="" HorizontalAlignment="Left" Margin="188,368,0,0" VerticalAlignment="Top" Width="61"/>
+
+    </Grid>
+</Window>
