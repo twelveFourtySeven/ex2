@@ -9,13 +9,13 @@
     <Grid>
         <Label x:Name="sizeLabel" Content="Size" HorizontalAlignment="Left" Margin="59,78,0,0" VerticalAlignment="Top"/>
         <Label x:Name="toppingsLabel" Content="Toppings" HorizontalAlignment="Left" Margin="316,78,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="smallRadioButton" Content="Small" HorizontalAlignment="Left" Margin="59,143,0,0" VerticalAlignment="Top" Checked="smallRadioButton_Checked" IsChecked="True"/>
-        <RadioButton x:Name="mediumRadioButton" Content="Medium" HorizontalAlignment="Left" Margin="59,185,0,0" VerticalAlignment="Top" Checked="mediumRadioButton_Checked"/>
-        <RadioButton x:Name="largeRadioButton" Content="Large" HorizontalAlignment="Left" Margin="59,217,0,0" VerticalAlignment="Top" Checked="largeRadioButton_Checked"/>
-        <CheckBox x:Name="onionCheckBox" Content="onion" HorizontalAlignment="Left" Margin="316,143,0,0" VerticalAlignment="Top" IsChecked="False" Checked="onionCheckBox_Checked"/>
-        <CheckBox x:Name="pepperCheckBox" Content="pepper" HorizontalAlignment="Left" Margin="316,185,0,0" VerticalAlignment="Top" IsChecked="False" Checked="pepperCheckBox_Checked"/>
-        <CheckBox x:Name="tomatoCheckBox" Content="tomato" HorizontalAlignment="Left" Margin="316,220,0,0" VerticalAlignment="Top" IsChecked="False" Checked="tomatoCheckBox_Checked"/>
-        <Label x:Name="priceLabel" Content="" HorizontalAlignment="Left" Margin="188,368,0,0" VerticalAlignment="Top" Width="61"/>
+        <RadioButton x:Name="smallRadioButton" Content="Small" HorizontalAlignment="Left" Margin="59,143,0,0" VerticalAlignment="Top" Checked="smallRadioButton_Checked" IsChecked="False" Unchecked="smallRadioButton_Unchecked"/>
+        <RadioButton x:Name="mediumRadioButton" Content="Medium" HorizontalAlignment="Left" Margin="59,185,0,0" VerticalAlignment="Top" Checked="mediumRadioButton_Checked" Unchecked="mediumRadioButton_Unchecked"/>
+        <RadioButton x:Name="largeRadioButton" Content="Large" HorizontalAlignment="Left" Margin="59,217,0,0" VerticalAlignment="Top" Checked="largeRadioButton_Checked" Unchecked="largeRadioButton_Unchecked"/>
+        <CheckBox x:Name="onionCheckBox" Content="onion" HorizontalAlignment="Left" Margin="316,143,0,0" VerticalAlignment="Top" IsChecked="False" Checked="onionCheckBox_Checked" Unchecked="onionCheckBox_Unchecked"/>
+        <CheckBox x:Name="pepperCheckBox" Content="pepper" HorizontalAlignment="Left" Margin="316,185,0,0" VerticalAlignment="Top" IsChecked="False" Checked="pepperCheckBox_Checked" Unchecked="pepperCheckBox_Unchecked"/>
+        <CheckBox x:Name="tomatoCheckBox" Content="tomato" HorizontalAlignment="Left" Margin="316,220,0,0" VerticalAlignment="Top" IsChecked="False" Checked="tomatoCheckBox_Checked" Unchecked="tomatoCheckBox_Unchecked"/>
+        <Label x:Name="priceLabel" Content="Price is:" HorizontalAlignment="Left" Margin="188,368,0,0" VerticalAlignment="Top" Width="78"/>
 
     </Grid>
 </Window>
